@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="endm">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal</title>
+</head>
+<body>
+    <h1>Student Portal</h1>
+
+    <h2>Edit Profile</h2>
+    <div>
+        <label for="cnic">CNIC:</label>
+        <input type="text" id="cnic" required><br>
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" required><br>
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" required><br>
+        <button type="submit" id="editProfileBtn">Update Profile</button>
+    </div>
+
+    <h2>Check Result</h2>
+    <div>
+        <label for="cnicResult">Enter CNIC:</label>
+        <input type="text" id="cnicResult" required><br>
+        <button type="submit">Check Result</button>
+    </div>
+    <div id="resultDisplay"></div>
+
+    
+   <script type="module" src="student.js"></script>
+</body>
+</html>
